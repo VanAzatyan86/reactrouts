@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+nav{
+    background: rgb(224, 171, 157);
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+  ul{
+      display: flex;
+      justify-content: end;
+  
+    li{
+          width: 100px;  
+          list-style-type: none;
+          padding-top: 5px;
+          color: orangered;
+          a{
+            color: white;
+          }
+           
+        }
+    }
+}
+.active{
+  padding: 5px 7px;
+  border-radius: 5px;
+  background: orangered;
+}
+.addSpan{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    background: orangered;
+ }
+.allProduct{
+ width: 1000px;
+display: grid;
+grid-template-columns: 350px 350px 350px;
+justify-content: space-between;
+gap: 20px;
+margin:  auto;
+padding-top: 100px;
+.product{
+border: 1px solid;
+border-radius: 10px;
+
+img{
+   width: 100%;
+}
+}
+}
+.loginPart{
+  width: 1000px;
+  display: grid;
+  grid-template-columns: 500px 500px;
+  margin: 0 auto;
+  padding-top: 100px;
+  img{
+    width: 500px;
+  }
+  .login{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 100px;
+  }
+  input{
+    padding: 10px;
+  }
+  button{
+    background: #E0AB9D;
+    border: none;
+    padding: 10px;
+  }
+}
+.registerPart{
+  width: 1000px;
+  display: grid;
+  grid-template-columns: 500px 500px;
+  margin: 0 auto;
+  padding-top: 100px;
+  img{
+    width: 500px;
+  }
+  .register{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 100px;
+  }
+  input{
+    padding: 10px;
+  }
+  button{
+    background: #E0AB9D;
+    border: none;
+    padding: 10px;
+  }
+  
+}
+.addToCart{
+  width: 300px;
+  margin: 0 auto;
+  
+  button{
+   width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    
+    background: #E0AB9D;
+  
+  }
+}
+.increment{
+  width: 100px;
+  margin: 20px auto;
+  padding: 5px;
+ display: flex;
+ justify-content: space-evenly;
+ background: #E0AB9D;
+ 
+ button{
+  padding: 3px 7px;
+ }
+}
+.cartPage{
+  padding-top: 100px;
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  .text{
+    display: flex;
+    justify-content: space-around;
+  }
+ .cartProduct{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: #ecdad5;
+   padding: 10px;
+   margin: 15px 10px;
+   border: 1px solid;
+  img{
+    width: 10%;
+  }
+ }
+ .delete{
+  width: 20px;
+  height: 20px;
+  background:#E0AB9D ;
+ }
+  
+}
+.oneProduct{
+  width: 700px;
+  padding: 100px;
+  display: grid;
+  grid-template-columns: 300px 400px;
+  gap: 100px;
+  margin: 0 auto;
+
+
+  img{
+   width: 100%;
+  
+  }
+  .onlyText{
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+   
+  }
+}
